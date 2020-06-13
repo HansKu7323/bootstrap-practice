@@ -9,14 +9,24 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <title>Hello, world!</title>
+
+    <style>
+      .box-container{
+        width: 100px;
+        height: 100px;
+        background: #ddd;
+        margin: 5px;
+      }
+    </style>
   </head>
   <body>
-    <h2 class="font-weight-normal display-4">Hello</h2>
-    <div class = "text-center bg-primary">Box</div>
-    <div class = "text-right bg-success">Box</div>
-    <div class = "text-left bg-info font-weight-bold" >Box</div>
-    <div class = "text-center bg-dark text-light">Box</div>
-    <div class = "text-center bg-danger text-info font-weight-bold">Box</div>
+    <div class="box-container">
+      <div class="bg-primary w-25 h-50">BOX</div>
+    </div>
+
+    <div class="box-container">
+      <div class="bg-success w-75 h-100">BOX</div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
